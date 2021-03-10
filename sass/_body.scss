@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+    background:#fff;
+    font-family: 'Gotham HTF Book';
+    font-weight: normal;
+    font-size: 16px;
+    color:#000;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.line-though{
+    text-decoration:line-through
+}
+.text-black{
+    color:#000!important
+}
+.text-green-light{
+    color:#85c150!important
+}
+.text-green-32a923{
+    color:#32a923!important
+}
+.text-light-purple{
+    color:#a251da!important
+}
+.text-b42456{
+    color:#b42456!important
+}
+.text-gray{
+    color:#999
+}
+.color-fail{
+    color:red
+}
+.text-theme{
+    color: $theme;
+}
+.bg-theme{
+    background-color: $theme;
+}
+.border-theme{
+    border-color: $theme;
+}
+.line-h11{
+    line-height:1.1
+}
+.lineh_43{
+    line-height:43px
+}
+a{
+    transition: 0.3s all;
+    text-decoration:none;
+    color: #000;
+    &:focus,&:hover{
+        text-decoration:none;
+        transition: 0.3s all;
+        color: #0084ff;
+    }
+}
+ul{
+    margin-bottom: 0;
+}
+input:focus, select:focus{
+    outline: none;
+}
